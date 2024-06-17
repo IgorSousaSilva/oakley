@@ -7,7 +7,7 @@
 - JS
   
 ## Como utilizar?
-Pojeto oakley, é um projeto de slides, basta clicar na seta que ira para proximo slide.
+Projeto oakley é um projeto de slides, basta clicar nas setas para ver proximo slide ou anterior.
 
  ## O que motivou a fazer esse projeto?
 Bom, esse projeto foi feito para mostrar meus conhecimentos, e tambem porque sou fã da oakley e gosto dos modelos de óculos, então resolvi criar um slide com os modelos de óculos da oakley e falar um pouco sobre cada modelo.
