@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'oakley';
+    src: url(../font/Thundergood.ttf)
+}
+
+body {
+    background-color: black;
+    font-family: 'oakley';
+    color: white
+}
+
+.fundo-slide {
+    
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.fundo-slide .slide {
+    position: absolute;
+    background: url(../imagem/imagem-de-fundo.jpg) no-repeat center;
+    background-size: 40%;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+
+}
+.fundo-slide .mostrar {
+    opacity: 1;
+}
+
+.fundo-slide .slide .conteudo {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 87%; 
+    height: 500px;
+    padding: 40px;
+    
+    
+    
+
+}
+
+.fundo-slide .slide .conteudo .informacoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    min-height: 400px;
+    border-radius: 10px;
+    
+    text-align: center;
+    margin-left: 700px;
+}
+
+.fundo-slide .slide .conteudo .informacoes h2 {
+    margin-bottom: 10px;
+    color: red;
+    font-size: 22px;
+}
+
+
+
+
+.fundo-slide .slide .conteudo .informacoes p {
+    font-size: 19px;
+    
+}
+
+.fundo-slide .slide .conteudo img {
+    height: 150px;
+    width: 250px;
+    border-radius: 10px;
+    margin-right: 65px;
+}
+
+.seta-voltar, .seta-avancar {
+    position: absolute;
+    z-index: 1;
+}
+
+.seta-voltar {
+    
+    left: 3%;
+}
+
+.seta-avancar {
+    
+    left: 94%;
+    transform: rotateY(180deg);
+}
+
+.opacidade{
+    cursor: default;
+    opacity: 0.5;
+}
