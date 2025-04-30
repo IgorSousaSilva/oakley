@@ -1,0 +1,10 @@
+:root {
+ 
+    --fonte-padrao: 'oakley';
+    --fonte-titulo: 'tundergood';
+    --tamanho-titulo: 25px;
+    --tamanho-paragrafo: 38px;
+    --cor-de-fundo: black;
+    --cor-texto: white; 
+    --cor-titulo: red;
+}
